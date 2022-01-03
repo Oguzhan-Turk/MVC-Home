@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{ 
+    string name = "Oguzhan";
+    string surname = "Turk";
+    string nameSurname = name + " " + surname;
+
+    <ul>
+        <li>@name</li>
+        <li>@surname</li>
+        <li>@nameSurname</li>
+    </ul>
+}
+
+@name
+<br />
+@surname
+<br />
+@nameSurname
+
+@(name + " " + surname )
