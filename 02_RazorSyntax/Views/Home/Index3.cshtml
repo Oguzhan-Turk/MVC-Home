@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index3";
+}
+<style>
+    .kirmizi{
+        color:red;
+    }
+</style>
+
+<h2>Index3</h2>
+<!--  Html Helper-->
+<input type="text" name="text1" id="text1" /> <br /> 
+<a href="/Home/Index">Index Sayfasına Git!</a>
+<hr />  
+@Html.ActionLink("Index Sayfasına Git!", "Index") <br />
+@Html.TextBox("text2","Adınız") <br />
+@Html.TextArea("textarea1","Özgeçmiş özetiniz",8,30,null) <br />
+<hr />
+@Html.ActionLink("Index Sayfasına Git!", "Index","Home", new {deger = "oguzhan", deger2 = "turk" }, new { title = "tıkla", @class = "kirmizi" } )
+
+

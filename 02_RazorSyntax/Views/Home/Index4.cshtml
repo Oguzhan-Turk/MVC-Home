@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index4";
+}
+
+<h2>Index4</h2>
+
+<a href="/Home/Index3">Index3 Sayfasına Git!</a>
+<hr />
+<br />
+@Html.ActionLink("Index 3 Sayfasına Git!", "Index", "Home")
+<hr />
+
+<a id="link1" name="link1" href="@Url.Action("Index3", "Home", null)">Index 3'e git(Url)</a>
+
+<hr />
+
+@Url.Action("Index4")
+<br />
+@Url.Content("~/Home/Index4")
+<br />
+@Url.Encode("~/Home/Index4?arama=oğuzhan türk")

@@ -1,0 +1,36 @@
+﻿@{ 
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <ul>
+            <li>
+                <a href="#">Sit amet, consectetur.</a>
+            </li>
+            <li>
+                <a href="#">Adipiscing elit fusce.</a>
+            </li>
+            <li>
+                <a href="#">Vel sapien elit.</a>
+            </li>
+            <li>
+                <a href="#">In malesuada semper.</a>
+            </li>
+            <li>
+                <a href="#">Mi, id sollicitudin.</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <p>Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.</p>
+        <p>Velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget sem nulla eu ultricies orci praesent id augue nec lorem pretium congue sit amet ac nunc fusce iaculis lorem eu diam hendrerit at mattis purus dignissim vivamus mauris tellus, fringilla.</p>
+        <p>Vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo, eget consequat neque quam id tellus duis ultricies tempor tortor, vitae dignissim ligula mattis nec in hac habitasse platea dictumst.</p>
+    </div>
+</div>
+    
+@RenderBody()
+
+@section Section1{
+    @RenderSection("Section1",false)
+}

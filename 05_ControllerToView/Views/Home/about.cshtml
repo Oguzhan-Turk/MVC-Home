@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>about</title>
+</head>
+<body>
+    <div>
+        <h2>About Page</h2>
+        <hr />
+        @*@Html.DisplayText("text1")*@
+        @Html.DropDownList("list1")
+        @*@Html.Hidden("text1")*@
+        @*@Html.Value("text1")*@
+        <hr />
+    </div>
+
+
+    <div>
+        <b>Ad - Soyad :</b> @Html.TextBox("text1")
+        <br />
+        <b>Bool veri türü : </b> @Html.CheckBox("check1")
+    </div>
+
+    <div>
+        <input type="text" value="@ViewBag.text1" />
+    </div>
+
+
+</body>
+</html>

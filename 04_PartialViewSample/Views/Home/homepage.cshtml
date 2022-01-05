@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>homepage</title>
+</head>
+<body>
+    <div>
+        header
+        <hr />
+        <ul>
+            <li>
+                <a href="#">Sit amet, consectetur.</a>
+            </li>
+            <li>
+                <a href="#">Adipiscing elit fusce.</a>
+            </li>
+            <li>
+                <a href="#">Vel sapien elit.</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        body
+        <hr />
+        @*@Html.Partial("_PartialFaydaliLinkler")*@ <!--  hemen altındaki aynı işi yapıyor.-->
+        @{ 
+            Html.RenderPartial("_PartialFaydaliLinkler");
+        }
+        <p>
+            Nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio.
+        </p>
+    </div>
+    <div>
+        footer
+        @Html.Partial("_PartialFaydaliLinkler")
+        <hr />
+    </div>
+</body>
+</html>

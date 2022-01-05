@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index5";
+}
+
+<h2>Index5</h2>
+
+@HttpUtility.HtmlEncode("<b> Oğuzhan Türk </b>") <br />
+@HttpUtility.HtmlDecode("&lt; b &gt; Oğuzhan T&#252;rk &lt;/ b &gt; ") <br />
+@HttpUtility.UrlEncode("https://www.google.com.tr") <br />
+@HttpUtility.UrlDecode("https%3a%2f%2fwww.google.com.tr") <br /> 
+<hr />
+@Html.Raw("<b> Oğuzhan Türk </b>")  <br /><hr /><br /> 
+@Html.Raw("<script type= 'text/javascript'> alert('Hello MVC') </script>")
+@Html.Raw("<style> h2 {color:red; } </style>")
+

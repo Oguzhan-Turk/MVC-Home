@@ -1,0 +1,22 @@
+﻿@using HelperMethods.Library
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @Html.Button("btnOk", ButtonType.button, "Gönder") <br /><br />
+        @Html.Button("btnOk2","btn btn-success", ButtonType.submit, "iptal")
+        <hr />
+        @Html.Paragraph("p1", 4, "dashed", @<text> <b style='color:red;'> Oğuzhan Türk ile Gooo </b> </text>)
+    </div>
+</body>
+</html>

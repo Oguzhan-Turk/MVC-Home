@@ -17,5 +17,17 @@ namespace _02_RazorSyntax.Controllers
         {
             return View();
         }
+        public ActionResult Index3()
+        {
+            return View();
+        }
+        public ActionResult Index4()
+        {
+            return View();
+        }
+        public ActionResult Index5()
+        {
+            return View();
+        }
     }
 }
