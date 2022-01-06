@@ -1,0 +1,48 @@
+﻿@*@model _07_ModelsModelBinding.Models.Person*@
+
+@using _07_ModelsModelBinding.ViewModels
+@model homepageViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>homepage</title>
+</head>
+<body>
+    <div>
+        <h2>
+            Home Page
+        </h2>
+    </div>
+    <hr />
+    <div>
+        <b> Ad : </b> @Model.PersonObject.Name <br />
+        <b> Soyad : </b> @Model.PersonObject.Surname <br />
+        <b> Yaş : </b> @Model.PersonObject.Age <br />
+        <hr />
+        <b> Ad -Soyad : </b> @(Model.PersonObject.Name + " " + Model.PersonObject.Surname) @* neresi html neresi razor kod olduğu karışmasın diye parantez içerisinde @ ile başlayarak yazdık. **@
+        <hr />
+        <b> Adres : </b> @(Model.AddressObject.City + " " + Model.AddressObject.AddressDecription) <br />
+    </div>
+    <hr />
+    <div>
+        @using (Html.BeginForm())
+        {
+            <b>  Ad :</b> @Html.TextBoxFor(model => model.PersonObject.Name) <br />
+            <b>  Soyad :</b> @Html.TextBoxFor(model => model.PersonObject.Surname) <br />
+            <b>  Yaş :</b> @Html.TextBoxFor(model => model.PersonObject.Age) <br />
+            <hr />
+            <b>  Şehir :</b> @Html.TextBoxFor(model => model.AddressObject.City) <br />
+            <b>  Adres Açıklama :</b> @Html.TextBoxFor(model => model.AddressObject.AddressDecription) <br />
+            <input type="submit" value="Gönder" />
+
+        }
+    </div>
+</body>
+</html>
