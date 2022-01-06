@@ -65,8 +65,8 @@ C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\bin\System.
 C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\bin\System.Web.Helpers.xml
 C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\bin\System.Web.Mvc.xml
 C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsWithBootstrap.csproj.CoreCompileInputs.cache
-C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsWithBootstrap.csproj.CopyComplete
+C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsAndModelsWithBootstrap.csproj.AssemblyReference.cache
+C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsAndModelsWithBootstrap.csproj.CoreCompileInputs.cache
+C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsAndModelsWithBootstrap.csproj.CopyComplete
 C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsWithBootstrap.dll
 C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsWithBootstrap.pdb
-C:\Users\oguzh\dev\WorkSpaces\MVC-Home\08_HelperMethodsWithBootstrap\obj\Debug\08_HelperMethodsWithBootstrap.csproj.AssemblyReference.cache

@@ -1,4 +1,6 @@
 ﻿@using _08_HelperMethodsWithBootstrap.Library
+@using _08_HelperMethodsWithBootstrap.Models
+@model List<Message>
 @{
     Layout = null;
 }
@@ -12,10 +14,17 @@
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container"> 
+    <div class="container">
         <br /><br />
 
-             @Html.Alert("alert1", "danger", "Oguzhan Turk Merhaba Kocaeli")
+        @Html.Alert("alert1", "danger", "Oguzhan Turk Merhaba Kocaeli")
+
+        <hr />
+
+        @foreach (Message item in Model)
+        {
+            @Html.AlertFor(x => item, new { title = item.Text, level = item.Level })
+        }
     </div>
 </body>
 </html>
